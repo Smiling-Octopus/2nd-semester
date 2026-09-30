@@ -61,9 +61,9 @@
 
 ```text
 2nd-semester/
-├─ System Information Gathering/  # Windows 시스템 정보 수집 프로그램
-├─ PDF File Script Code/           # PDF 파일 및 스크립트 연계 코드
-├─ Server/                         # Linux 정보 수집·분석 서버
+├─ System Information Gathering/	# Windows 시스템 정보 수집 프로그램(단일 파일)
+├─ PDF File Script Code/			# PDF 파일 및 스크립트 연계 코드(단일 파일)
+├─ Agent Server/					# Windwos 시스템 정보 수집 프로그램 및 Linux 기반 정보 수집·분석 서버(Agent, Server 구조)
 └─ README.md
 ```
 
