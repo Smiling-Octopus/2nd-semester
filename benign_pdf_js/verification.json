@@ -1,0 +1,26 @@
+{
+  "observed_at_utc": "2026-10-10T23:24:36.513107+00:00",
+  "generator_author": "ETRI qwen-next",
+  "generation_method": "initial model generator + model-authored replacement of create_base_pdf; rejected full revision with missing AcroForm widgets",
+  "verification_author": "Pepper",
+  "python_static_tests": {
+    "passed": 5
+  },
+  "javascript_mock_checks": {
+    "passed": 5,
+    "is_real_viewer": false
+  },
+  "visual_review": {
+    "renderer": "pdftoppm",
+    "pages_reviewed": 2,
+    "clipping_or_overlap_observed": false
+  },
+  "windows_viewer_test": "NOT_TESTED",
+  "viewer_installers": "NOT_COLLECTED",
+  "forbidden_operations": "No network, launch, attachment, form submission, alert, or key capture in the reviewed new PDFs/JS",
+  "model_response_sha256": [
+    "5ed1cc712687ffe142ee009c8464e52067805d918936acdceea966a444e983ab",
+    "2fa5ec9c66afc1825a46a4b47c61bd27f69e8242f84e1fbc40325c80b7350e72"
+  ],
+  "dependency_note": "pypdf 6.20.0 add_js works but emits deprecation warning for version 7; pinned version retained."
+}
