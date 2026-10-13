@@ -14,6 +14,11 @@
 
 프로젝트 수행 전 단계입니다. 초기 설계와 요구사항을 정리한 뒤 개발 환경을 구축하고, 수집 프로그램·서버·분석 기능을 단계적으로 구현할 예정입니다.
 
+## 종윤 브랜치 검토 자료
+
+- [`benign_pdf_js/`](benign_pdf_js/README.md): 외부 통신 없는 기존 PDF JavaScript 호환성 검증 자료.
+- [`passive_trap_pdf/`](passive_trap_pdf/README.md): 제공된 Qwen workspace ZIP의 원본 Python 초안 및 검토 기록. 생성 PDF의 엄격 파싱 실패를 확인했으며 실제 뷰어 동작은 **미검증**입니다. 기존 무해한 실험과 분리하여 보관합니다.
+
 ## 대상 환경
 
 | 구분 | 환경 |
