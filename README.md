@@ -12,12 +12,14 @@
 
 ## 현재 상태
 
-프로젝트 수행 전 단계입니다. 초기 설계와 요구사항을 정리한 뒤 개발 환경을 구축하고, 수집 프로그램·서버·분석 기능을 단계적으로 구현할 예정입니다.
+김종윤 담당 PDF 호환성 검토는 Qwen 초안의 구조 검사와 Windows Chrome·Edge의 후속 실험, Chrome 바이너리 정적 분석까지 진행했습니다(2026-10-23 기록 기준). PDF 정상 표시와 명시적 클릭 수신은 확인했으나, **다운로드한 PDF를 기본 Chrome에서 열기만 해 자동으로 서버에 요청을 보내는 목표는 달성하지 못했습니다.** 이 결과는 담당 실험의 진행 상태이며 전체 팀의 통합 구현 완료를 뜻하지 않습니다.
 
 ## 종윤 브랜치 검토 자료
 
 - [`benign_pdf_js/`](benign_pdf_js/README.md): 외부 통신 없는 기존 PDF JavaScript 호환성 검증 자료.
-- [`passive_trap_pdf/`](passive_trap_pdf/README.md): 제공된 Qwen workspace ZIP의 원본 Python 초안 및 검토 기록. 생성 PDF의 엄격 파싱 실패를 확인했으며 실제 뷰어 동작은 **미검증**입니다. 기존 무해한 실험과 분리하여 보관합니다.
+- [`passive_trap_pdf/`](passive_trap_pdf/README.md): Qwen ZIP 원본 초안을 보존하고, 원본·수정 대조군·별도 진단 PDF의 결과를 구분한 검토 기록입니다. 보존된 Python 초안 자체는 여전히 구조 오류가 있는 검토용 자료입니다.
+- [Windows 후속 실험 및 분석 결과](passive_trap_pdf/WINDOWS_VALIDATION_20261023.md): 실험 조건, 관측값, 미확정 항목과 분석 한계.
+- [김종윤 5주차 진행 요약](passive_trap_pdf/WEEKLY_PROGRESS.md): 진행 순서 기준으로 재구성한 주차별 3줄 요약. 실제 주차별 날짜 기록은 아닙니다.
 
 ## 대상 환경
 

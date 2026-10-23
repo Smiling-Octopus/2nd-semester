@@ -1,0 +1,245 @@
+{
+  "schema": "qwen-pdf-validation-summary/v1",
+  "record_date": "2026-10-23",
+  "timezone": "Asia/Seoul",
+  "basis_commit": "d30de1e0b1e63f57184bb9b662f1f3f027057959",
+  "evidence_kind": "selected facts extracted from preserved experiment records; not a new experiment",
+  "provenance_note": "Source artifact names identify preserved private experiment bundles, not repository-relative links. Full original logs, binaries and installation files are not included. Hashes identify source bytes; they do not substitute for access to the originals.",
+  "environment": {
+    "os": "Windows 11 Pro 64-bit 10.0.26300",
+    "chrome": "155.0.8059.86",
+    "edge": "155.0.4283.62",
+    "virtualbox_verified": false
+  },
+  "original_no_input_transmission_objective_achieved": false,
+  "repository_original_sources": {
+    "status": "UNVERIFIED_DRAFT",
+    "unchanged_sha256": {
+      "server.py": "127d50f4301bda92c3027928fbf6837aeed8714a612e2c97fc467f4a16450303",
+      "trap_pdf_generator.py": "d8a3ae6f8c72c8642133ba43ebd9f2dcc5087740d3b5fe2b5a2c2c5675abdb26"
+    }
+  },
+  "separate_fixed_click_control": {
+    "chrome_render_verified": true,
+    "edge_render_verified": true,
+    "explicit_link_requests": 2,
+    "automatic_collection_implemented": false,
+    "local_tests": 3,
+    "distribution_tests": 3,
+    "source_hashes": {
+      "server.py": "8c01164b07f1dbd06ac9c42e43cf63c0bfe23fd9d67d2ea0d4d653d626a8bcb7",
+      "trap_pdf_generator.py": "64cbab81989f662f4ef7f0b33e1c1a9ce9ae2b692f14f192aad1702b0c0dda73",
+      "README.md": "e794edcd32e8f22f8c8923dbf45044c9a0ec3ba7b34dcaa4119ea6a4df7597fc",
+      "requirements.txt": "4763d5f1b1f402e56dcaa1f58c35905ba0462162ad14c12d2fe134cd76d91f16",
+      "tests/test_pdf_workflow.py": "c32e9df234126467c63b3c0e5fd06ef84deee627a10fb3d4597064fe944eaa41",
+      "assets/fonts/NanumGothic.ttf": "48a28e97b34fc8e5b157657633670cd1b7de126cfc414da65ce9c3d5bc8be733",
+      "assets/fonts/LICENSE.txt": "050f36eb4f026b35c002511b97cdf091b55c8b6fa073761641635001ab8246a9"
+    }
+  },
+  "javascript_headless_trials": [
+    {
+      "mode": "http",
+      "observed_seconds": 31.24,
+      "input_before_observation": false,
+      "automatic_requests": 0,
+      "manual_requests": 0,
+      "raw_js_marker_ocr": false,
+      "screenshot_sha256": "a578b2cc36d9febdb92ed7b4e734e354f89d823f337ff87c3b10c97b615b9605"
+    },
+    {
+      "mode": "file",
+      "observed_seconds": 31.0,
+      "input_before_observation": false,
+      "automatic_requests": 0,
+      "manual_requests": 1,
+      "raw_js_marker_ocr": false,
+      "screenshot_sha256": "f93c164570a98e7148d546007d063a5b51b7fa49aaa9537c0681cbed49b1f533"
+    }
+  ],
+  "external_image_matrix": {
+    "trials": 4,
+    "html_resource_requests": 8,
+    "pdf_external_resource_requests": 0,
+    "embedded_image_rendered": 4,
+    "source_unchanged": true,
+    "postflight_verified": true
+  },
+  "native_uri_and_form_gui": {
+    "valid_trials": 4,
+    "excluded_interrupted_observations": 1,
+    "automatic_marker_requests": 0,
+    "manual_control_requests": 3,
+    "normal_chrome_rendering": true,
+    "original_no_click_objective_achieved": false
+  },
+  "downloaded_local_reference_trials": {
+    "date": "2026-10-23",
+    "browser": "Chrome/155.0.8059.86",
+    "local_downloaded_pdfs": 4,
+    "browser_preference_changes": false,
+    "pdf_clicks_or_key_inputs": 0,
+    "automatic_http_resource_requests": 0,
+    "automatic_https_url_sources": 0,
+    "xfa_baseline_visible": false,
+    "original_objective_achieved": false,
+    "trials": [
+      {
+        "trial": "gotor",
+        "seconds": 60.09,
+        "http_requests": 0,
+        "https_url_sources": null,
+        "zone_id": 3,
+        "pdf_input_events": 0
+      },
+      {
+        "trial": "gotoe",
+        "seconds": 60.08,
+        "http_requests": 0,
+        "https_url_sources": null,
+        "zone_id": 3,
+        "pdf_input_events": 0
+      },
+      {
+        "trial": "reference",
+        "seconds": 60.1,
+        "http_requests": 0,
+        "https_url_sources": 0,
+        "zone_id": 3,
+        "pdf_input_events": 0
+      },
+      {
+        "trial": "xfa",
+        "seconds": 60.1,
+        "http_requests": 0,
+        "https_url_sources": 0,
+        "zone_id": 3,
+        "pdf_input_events": 0
+      }
+    ]
+  },
+  "javascript_gui_followup": {
+    "started_utc": "2026-10-23T10:57:03.664260+00:00",
+    "observed_seconds": 60.11,
+    "pdf_input_events": 0,
+    "pdf_sha256": "fd449ff8410beb83ecee22bcb135fb74744fd2f4d2a3b8b184ac6fc9fcb1444f",
+    "zone_id": 3,
+    "automatic_resource_requests": 0,
+    "html_control_requests": 2,
+    "pdf_download_requests": 1,
+    "raw_automated_flags": {
+      "pdf_rendered": false,
+      "open_action_marker_ocr": false,
+      "gesture_error_ocr": false
+    },
+    "separate_visual_review": {
+      "method": "Direct visual inspection of original screenshot, independently of OCR",
+      "pdf_displayed": true,
+      "open_action_executed_visible": true,
+      "fetch_xhr_navigator_undefined_visible": true,
+      "geturl_call_returned_visible": true,
+      "submitform_error_visible": "ERROR: Document.submitForm: User gesture required.",
+      "lab_only_field_visible": true,
+      "screenshot_sha256": "f93c164570a98e7148d546007d063a5b51b7fa49aaa9537c0681cbed49b1f533",
+      "raw_ocr_flags_preserved": true,
+      "explanation": "OCR did not read the form fields; the automated rendered check also used a header from a different fixture. Original results.json flags are preserved. The screenshot directly confirms rendering and execution."
+    }
+  },
+  "static_analysis": {
+    "source_sha256": "45b38d98a54919e01d64fd3401e4327694ccfd4b1f1d2cbab4ca0a8bcc2f86ba",
+    "error_id": 23,
+    "message": "User gesture required.",
+    "allowed_event_indices": [
+      11,
+      12,
+      17
+    ],
+    "analysis_scope": "Selected functions in Chrome DLL, not complete binary analysis",
+    "event_name_mapping": "Inference from public PDFium source, not an exact build/source match"
+  },
+  "recorded_postflight": {
+    "project_hashes_match": true,
+    "owned_processes_and_ports_closed": true,
+    "existing_browser_ids_preserved": true
+  },
+  "limitations": [
+    "Original repository Python sources remain unmodified; fixed click-control tests do not validate the original draft.",
+    "Trials cover specific browser versions, fixtures and 30-60 second observations, not all possible PDF behavior.",
+    "Initial Chrome rendering was inconclusive; later GUI evidence is separate.",
+    "Some HTTP form click controls received no request and the cause remains unresolved.",
+    "XFA baseline was not visible, so XFA processing was not established.",
+    "GoToR and GoToE trials did not measure HTTPS; null values are preserved.",
+    "OCR false flags were preserved alongside separate direct screenshot inspection.",
+    "Static analysis is partial and does not prove absence of every network path.",
+    "VirtualBox use, Acrobat/Foxit behavior and repeated or long-delay opening were not verified."
+  ],
+  "source_artifacts": [
+    {
+      "source_artifact": "windows-pdf-fixed-20261023/evidence/summary.json",
+      "sha256": "d583d52c5be3d29fce32d96fd86e173ec5e47cee3e0a06eafeeba118f03d7e7b"
+    },
+    {
+      "source_artifact": "chrome-auto-transmission-check-20261023/results.json",
+      "sha256": "dea5261cb5994cfb1f654e7dd4f83a8be596c80200f39385bd2a2263fbda8d35"
+    },
+    {
+      "source_artifact": "pdf-external-image-matrix-20261023-r2/evidence/summary.json",
+      "sha256": "413f7c4484e791a29f7ca00ea3df2de273006f2fecb57de693826076b1138e58"
+    },
+    {
+      "source_artifact": "artex-login-validation-20261023/summary.json",
+      "sha256": "9c5e496b194224dac9ec43c181a88a334308e273e2d38818d47f696daffdd4d0"
+    },
+    {
+      "source_artifact": "pdf-local-open-followup-20261023/summary.json",
+      "sha256": "527872a9c81ba977c29a50bbd86d6904d097f5394e5e1b0c236d5e37097b1873"
+    },
+    {
+      "source_artifact": "pdf-investigation-progress-20261023/evidence/windows-gui/results.json",
+      "sha256": "84f826a81bbd09b5b25474293750ec64952e3cb35b40d47f087dea4c84b8dc51"
+    },
+    {
+      "source_artifact": "pdf-investigation-progress-20261023/evidence/windows-gui/visual-review.json",
+      "sha256": "cd2ca73133a1dfefb403847908177f4de2e075808662f976567f2fe358ca4011"
+    },
+    {
+      "source_artifact": "pdf-investigation-progress-20261023/evidence/error-table-check.result.json",
+      "sha256": "c498163ec1ed90666da226aee1d6ce4afcb0c470b1cbdac56db6e07ee05a5726"
+    },
+    {
+      "source_artifact": "pdf-investigation-progress-20261023/verification.json",
+      "sha256": "970249b630eb82420d306f10b099204434711cacd0554d799a0d3261495f409d"
+    },
+    {
+      "source_artifact": "pdf-investigation-progress-20261023/report-data.json",
+      "sha256": "7a2ec5a69093198ce814e1d36c32930b006db9697500d0810b9251d05daca5de"
+    },
+    {
+      "source_artifact": "windows-pdf-experiment-result.md",
+      "sha256": "58fd13095ff6606b2aded2f87d7cfaf9d0025d8d141127532c9101067da23488"
+    },
+    {
+      "source_artifact": "windows-pdf-fixed-20261023/report.md",
+      "sha256": "4850e323500aff339d812eaae8a1297e7ea03e1bfc4b3a15a798bb2e15cb3daa"
+    },
+    {
+      "source_artifact": "chrome-auto-transmission-check-20261023/report.md",
+      "sha256": "54160cd50e7c7e18b27a94401493066d80d112e4fc2066b273d072b14d79352c"
+    },
+    {
+      "source_artifact": "chrome-external-image-check-20261023/report.md",
+      "sha256": "4e70046f98ca3dd490b6f1687e217129934459a8308950db7d207cb46f390e2c"
+    },
+    {
+      "source_artifact": "pdf-external-image-matrix-20261023-r2/report.md",
+      "sha256": "6dc1c52f36e5655835b06be70ce9e666e9921a2656ce5f84f33fde6fede6f926"
+    },
+    {
+      "source_artifact": "artex-login-validation-20261023/report.md",
+      "sha256": "6369639d58a38ea977243e52d1f4bc6146b15be256d08b9df1421d71172575b0"
+    },
+    {
+      "source_artifact": "pdf-local-open-followup-20261023/report.md",
+      "sha256": "22fd4feb5d6e8a0f4176ab706a5153ff45bfbdad3f0b4d94c82f85a086d25872"
+    }
+  ]
+}
